@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["numpy>=1", "scikit-learn>=1", "pandas>=1.2"]
+requirements = []
 
 setup(name='gs-ds-tools',
-      version='0.0.1',
+      version='0.0.10',
       description='My DS and ML tools for Kaggle-like competitions',
       long_description=readme,
       long_description_content_type="text/markdown",
